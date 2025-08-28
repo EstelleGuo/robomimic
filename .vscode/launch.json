@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Robomimic",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/hinton/workspace/robomimic/robomimic/scripts/train.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--config", "/home/hinton/workspace/robomimic/robomimic/exps/templates/diffusion_policy_pusht.json",
+                "--dataset", "/home/hinton/deoxys_gyh/example_data/demo.hdf5",
+                "--debug"
+            ]
+        }
+    ]
+}
